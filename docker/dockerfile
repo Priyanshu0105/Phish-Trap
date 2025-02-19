@@ -75,7 +75,6 @@ RUN chmod 600 /seccomp-profile.json \
 
 WORKDIR /home/sandbox/docker/sandbox/app
 
-# Expose ports for VNC and noVNC
 EXPOSE 5901 6080
 
 # Switch to non-root user
